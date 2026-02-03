@@ -50,7 +50,7 @@ export default function ResourcesList() {
                         <h5 className="font-medium text-gray-600">{semesterData.semester}</h5>
                         <div className="exams-grid grid grid-cols-1 md:grid-cols-2 gap-4 ml-4 mt-2">
                           {semesterData.exams.map((exam, examIndex) => (
-                            <div key={examIndex} className="exam-card border p-3 rounded bg-gray-50">
+                            <div key={examIndex} className="exam-card">
                               <h6 className="font-bold text-sm text-blue-600">{exam.type}</h6>
                               <ul className="list-disc pl-4 mt-1">
                                 {exam.items.length > 0 ? (
