@@ -1,0 +1,19 @@
+.grandparentresouce {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  background-color: #f7fafc;
+}
+
+.parentresouce.ccomponents {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.parentresouce.ccomponents > * + * {
+  margin-top: 10px;
+}
