@@ -1,0 +1,26 @@
+.grandparent_header {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.parent_header {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.body-parent_header {
+  border: 1px solid;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo_header {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.navigation_header {
+  border: 1px solid;
+  padding: 5px;
+}
