@@ -1,0 +1,3052 @@
+[
+    {
+        "faculty": "FCE",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Physics 2021",
+                                            "FCE Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCE Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCE Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Physics 2022",
+                                            "FCE Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCE Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCE Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Physics 2023",
+                                            "FCE Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCE Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCE Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Physics 2024",
+                                            "FCE Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCE Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCE Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCE Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FET",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Physics 2021",
+                                            "FET Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FET Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FET Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Physics 2022",
+                                            "FET Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FET Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FET Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Physics 2023",
+                                            "FET Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FET Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FET Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Physics 2024",
+                                            "FET Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FET Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FET Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FET Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FCSE",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Physics 2021",
+                                            "FCSE Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCSE Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCSE Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Physics 2022",
+                                            "FCSE Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCSE Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCSE Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Physics 2023",
+                                            "FCSE Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCSE Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCSE Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Physics 2024",
+                                            "FCSE Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FCSE Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FCSE Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FCSE Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FPA",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Physics 2021",
+                                            "FPA Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPA Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPA Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Physics 2022",
+                                            "FPA Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPA Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPA Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Physics 2023",
+                                            "FPA Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPA Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPA Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Physics 2024",
+                                            "FPA Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPA Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPA Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPA Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FDA",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Physics 2021",
+                                            "FDA Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FDA Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FDA Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Physics 2022",
+                                            "FDA Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FDA Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FDA Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Physics 2023",
+                                            "FDA Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FDA Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FDA Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Physics 2024",
+                                            "FDA Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FDA Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FDA Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FDA Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FMC",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Physics 2021",
+                                            "FMC Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FMC Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FMC Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Physics 2022",
+                                            "FMC Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FMC Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FMC Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Physics 2023",
+                                            "FMC Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FMC Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FMC Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Physics 2024",
+                                            "FMC Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FMC Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FMC Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FMC Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FSH",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Physics 2021",
+                                            "FSH Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FSH Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FSH Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Physics 2022",
+                                            "FSH Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FSH Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FSH Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Physics 2023",
+                                            "FSH Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FSH Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FSH Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Physics 2024",
+                                            "FSH Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FSH Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FSH Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FSH Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "FPH",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Physics 2021",
+                                            "FPH Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPH Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPH Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Physics 2022",
+                                            "FPH Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPH Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPH Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Physics 2023",
+                                            "FPH Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPH Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPH Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Physics 2024",
+                                            "FPH Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "FPH Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "FPH Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "FPH Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "PIHM",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Physics 2021",
+                                            "PIHM Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "PIHM Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "PIHM Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Physics 2022",
+                                            "PIHM Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "PIHM Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "PIHM Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Physics 2023",
+                                            "PIHM Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "PIHM Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "PIHM Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Physics 2024",
+                                            "PIHM Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "PIHM Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "PIHM Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "PIHM Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "ASRC",
+        "batches": [
+            {
+                "batchYear": "2021",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Physics 2021",
+                                            "ASRC Maths 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "ASRC Chem 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "ASRC Sem 1 Papers 2021"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Coding 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC DSA 2021"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2022",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Physics 2022",
+                                            "ASRC Maths 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "ASRC Chem 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "ASRC Sem 1 Papers 2022"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Coding 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "year": "Second Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 3",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC DSA 2022"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2023",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Physics 2023",
+                                            "ASRC Maths 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "ASRC Chem 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "ASRC Sem 1 Papers 2023"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Coding 2023"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "batchYear": "2024",
+                "academicYears": [
+                    {
+                        "year": "First Year",
+                        "semesters": [
+                            {
+                                "semester": "Semester 1",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Physics 2024",
+                                            "ASRC Maths 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": [
+                                            "ASRC Chem 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": [
+                                            "ASRC Sem 1 Papers 2024"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "semester": "Semester 2",
+                                "exams": [
+                                    {
+                                        "type": "CIE 1",
+                                        "items": [
+                                            "ASRC Coding 2024"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MSE",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "CIE 2",
+                                        "items": []
+                                    },
+                                    {
+                                        "type": "ESE",
+                                        "items": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -9,7 +9,6 @@ export default function Home() {
       <div className="parent-container-main">
         <Header />
         <Resources />
-        <Link href="/about">About</Link>
       </div>
     </div>
   );
