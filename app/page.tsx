@@ -7,8 +7,10 @@ export default function Home() {
   return (
     <div className="grand-parent-container-main">
       <div className="parent-container-main">
-        <Header />
-        <Resources />
+        {/* <Header /> */}
+        <h3>Welcome to Snappy!</h3>
+        <p>Snappy is a platform for managing and sharing resources efficiently.</p>
+        {/* <Resources /> */}
       </div>
     </div>
   );
