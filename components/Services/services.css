@@ -1,0 +1,93 @@
+.grandparent_services {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.parent_services {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent_services_card {
+    width: 100%;
+    max-width: 380px;
+}
+
+.services_card {
+    background: #fff;
+    border: 1px solid #000000;
+    /* border-radius: 20px; */
+    transition: transform .3s, box-shadow .3s;
+    overflow: hidden;
+    box-shadow: 9px 10px 0px 0px #000000;
+}
+
+/* .services_card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+} */
+
+.services_card_content {
+    padding: 32px;
+}
+
+.services_card_icon_group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.services_card_icon {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_card_icon.icon_alt {
+    background: #f3f4f6;
+}
+
+.services_card_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.services_card_description {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.services_card_button {
+    color: #000000;
+    cursor: pointer;
+    /* background-color: #000000; */
+    border: solid 1px;
+    /* border-radius: 10px; */
+    width: 100%;
+    margin-top: 24px;
+    box-shadow: 5px 4px 0px 0px #000000;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color .2s, transform .1s;
+}
+
+/* .services_card_button:hover {
+    background-color: #1d4ed8;
+} */
+
+.services_card_button:active {
+    transform: scale(0.98);
+}
