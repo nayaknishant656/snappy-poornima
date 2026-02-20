@@ -1,0 +1,8 @@
+.grandparent_partner {
+    width: 100%;
+    height: 50px;
+    /* border: solid red 1px; */
+    background-color: #f0ebff;
+    justify-content: center;
+    display: flex;
+}

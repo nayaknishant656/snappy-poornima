@@ -1,0 +1,30 @@
+.grandparent_hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0eee6;
+}
+
+.parent_hero {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.hero_content h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1a1a2e;
+    line-height: 1.15;
+}
