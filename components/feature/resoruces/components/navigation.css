@@ -1,3 +1,30 @@
+.navigation_resources_parent_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 8px 0;
+}
+
 .navigation_resources_parent_body a {
-    padding: 5px;
+    padding: 8px 16px;
+    background: #f3f4f6;
+    color: #4b5563;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.navigation_resources_parent_body a:hover {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+/* Optional: Highlight active state if you add logic for it later */
+.navigation_resources_parent_body a.active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }

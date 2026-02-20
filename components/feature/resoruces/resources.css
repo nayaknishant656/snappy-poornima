@@ -1,31 +1,184 @@
 .grandparentresouce {
   display: flex;
   justify-content: center;
-  padding: 24px;
-  background-color: #f7fafc;
+  padding: 40px 20px;
+  background-color: #fcfbf8;
+  min-height: 100vh;
 }
 
 .parentresouce.ccomponents {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .parentresouce.ccomponents>*+* {
-  margin-top: 10px;
+  margin-top: 24px;
 }
 
 .resources-list-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 20px;
 }
 
 .faculty-section {
-  padding: 0px 14px;
-  border: solid 1px black;
-  box-shadow: 2px 3px 1px 0px black;
-  margin: 10px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faculty-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.faculty-section h2 {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.batch-section {
+  border-left: 2px solid #e5e7eb;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.exam-card {
+  background: #f9fafb;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #f3f4f6;
+  transition: background 0.2s ease;
+}
+
+.exam-card:hover {
+  background: #f3f4f6;
+}
+
+.exam-card h6 {
+  color: #2563eb;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+}
+
+.exam-card ul li {
+  color: #4b5563;
+  line-height: 1.5;
+}
+.exams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.year-section {
+  margin-bottom: 32px;
+}
+
+.year-section h4 {
+  color: #374151;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.year-section h4::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #2563eb;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.semester-section {
+  margin-bottom: 24px;
+}
+
+.semester-section h5 {
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+/* Header Styles */
+.header-container {
+  text-align: left;
+  margin-bottom: 32px;
+  border-left: 4px solid #2563eb;
+  padding-left: 20px;
+}
+.header-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -0.04em;
+  margin: 0;
+  line-height: 1.1;
+}
+.highlight {
+  color: #2563eb;
+}
+.header-subtitle {
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin-top: 12px;
+  max-width: 600px;
+}
+
+/* Search Styles */
+.search-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  padding: 10px 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-wrapper:focus-within {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+  background: #ffffff;
+}
+.search-icon {
+  color: #9ca3af;
+  margin-right: 12px;
+}
+.search-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.95rem;
+  color: #1f2937;
+  outline: none;
+}
+.search-input::placeholder {
+  color: #9ca3af;
 }

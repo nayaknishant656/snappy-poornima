@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function header() {
+export default function ResourceHeader() {
   return (
-    <div className="flex justify-center items-center border border-red-500 p-[5px]">
-      <h1 className="text-center">Resources Of PU Campus</h1>
+    <div className="header-container">
+      <h1 className="header-title">Resources <span className="highlight">Explorer</span></h1>
+      <p className="header-subtitle">Access course materials, exam papers, and faculty resources for the PU Campus.</p>
     </div>
   )
 }
+
