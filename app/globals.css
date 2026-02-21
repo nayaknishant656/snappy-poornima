@@ -45,10 +45,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 @layer utilities {
   .animate-marquee {
     animation: marquee var(--duration) linear infinite;
   }
+
   .animate-marquee-vertical {
     animation: marquee-vertical var(--duration) linear infinite;
   }
@@ -58,6 +60,7 @@ body {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(calc(-100% - var(--gap)));
   }
@@ -67,7 +70,19 @@ body {
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(calc(-100% - var(--gap)));
   }
+}
+
+.grand-parent-container-main {
+  position: relative;
+  border: 2px solid;
+}
+
+.parent-container-main {
+  border: 2px solid;
+  width: 1024px;
+  margin: auto;
 }
