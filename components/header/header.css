@@ -1,26 +1,38 @@
 .grandparent_header {
-  border: 1px solid;
-  padding: 5px;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  z-index: 100;
+  display: blur;
 }
 
 .parent_header {
-  border: 1px solid;
-  padding: 5px;
+  width: 50%;
+  margin: auto;
+  padding: 18px 0px;
 }
 
 .body-parent_header {
-  border: 1px solid;
-  padding: 5px;
-  display: flex;
+  border-radius: 50px;
   justify-content: space-around;
+  display: flex;
+  background-color: #ff000000;
+  /* height: 46px; */
+  backdrop-filter: blur(11px);
+  background-filter: blur(2px);
+  box-shadow: 6px 6px 7px 5px #dbc7a1;
 }
 
 .logo_header {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 5px;
 }
 
 .navigation_header {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 5px;
+}
+
+.navigation_header>button {
+  margin: 0px 19px;
 }
