@@ -1,0 +1,36 @@
+.grandparent_projects {
+    border: solid red 1px;
+    padding: 5px;
+    padding-top: 80px;
+}
+
+.parent_projects {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.grandpparent_projects_content {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.parent_projects_content {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.projects_header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.projects_content_parent {
+    border: solid red 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -11,7 +11,7 @@ export default function resourcemain() {
       <div className="parentresouce ccomponents">
         <ResourceHeader />
         <Searchbar />
-         <Navigation />
+        <Navigation />
         <Resourceslist />
       </div>
     </div>
