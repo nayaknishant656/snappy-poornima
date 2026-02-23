@@ -1,0 +1,36 @@
+.grandparent_colx {
+    border: solid red 1px;
+    padding: 5px;
+    padding-top: 80px;
+}
+
+.parent_colx {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.grandpparent_colx_content {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.parent_colx_content {
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.colx_header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    border: solid red 1px;
+    padding: 5px;
+}
+
+.colx_content_parent {
+    border: solid red 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
