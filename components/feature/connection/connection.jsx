@@ -20,6 +20,17 @@ export default function connection() {
                                     </div>
                                 </div>
                             </div>
+                            <div className='card_connection'>
+                                <div className='card_image'></div>
+                                <div className='card_description'>
+                                    <h2>Snappy</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, laboriosam?</p>
+                                    <div className='card_connection_buttons'>
+                                        <button>Connect with us</button>
+                                        <button>Join us</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
