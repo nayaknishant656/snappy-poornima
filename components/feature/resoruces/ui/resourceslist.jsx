@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import resourcesData from '../data/resourcesData.json'
 import { useSearchParams } from 'next/navigation'
-
+import './resourceslist.css'
 export default function ResourcesList() {
   const searchParams = useSearchParams()
   const selectedFaculty = searchParams.get('faculty')
@@ -21,58 +21,72 @@ export default function ResourcesList() {
     ? resourcesData.filter(item => item.faculty === selectedFaculty)
     : resourcesData
 
-  return (
-    <div className="resources-list-container p-4">
-      {filteredData.map((facultyData, index) => (
-        <div key={index} className="faculty-section mb-6">
-          <h2 className="text-xl font-bold mb-2">{facultyData.faculty}</h2>
-          {facultyData.batches.map((batch, batchIndex) => {
-            const isExpanded = expandedBatches[`${index}-${batchIndex}`];
-            return (
-              <div key={batchIndex} className="batch-section ml-4 mb-6">
-                <div
-                  className="flex items-center cursor-pointer mb-4"
-                  onClick={() => toggleBatch(index, batchIndex)}
-                >
-                  <h3 className="text-lg font-bold text-gray-800 select-none">
-                    {batch.batchYear}
-                  </h3>
-                  <span className="ml-2 text-gray-500 text-sm">
-                    {isExpanded ? '▼' : '▶'}
-                  </span>
-                </div>
+  // Foundational style object for reuse
+  const foundationalStyle = {
+    border: 'solid red 1px',
+    padding: '5px'
+  };
 
-                {isExpanded && batch.academicYears.map((yearData, yearIndex) => (
-                  <div key={yearIndex} className="year-section ml-4 mb-4">
-                    <h4 className="text-md font-semibold text-gray-700">{yearData.year}</h4>
-                    {yearData.semesters.map((semesterData, semIndex) => (
-                      <div key={semIndex} className="semester-section ml-4 mb-2">
-                        <h5 className="font-medium text-gray-600">{semesterData.semester}</h5>
-                        <div className="exams-grid grid grid-cols-1 md:grid-cols-2 gap-4 ml-4 mt-2">
-                          {semesterData.exams.map((exam, examIndex) => (
-                            <div key={examIndex} className="exam-card">
-                              <h6 className="font-bold text-sm text-blue-600">{exam.type}</h6>
-                              <ul className="list-disc pl-4 mt-1">
-                                {exam.items.length > 0 ? (
-                                  exam.items.map((item, itemIndex) => (
-                                    <li key={itemIndex} className="text-sm text-gray-600">{item}</li>
-                                  ))
-                                ) : (
-                                  <li className="text-sm text-gray-400 italic">No resources</li>
-                                )}
-                              </ul>
-                            </div>
-                          ))}
+  return (
+    <div className='grandparent_resources_list' style={foundationalStyle}>
+      <div className='parent_resources_list' style={foundationalStyle}>
+        <div className='grandpparent_resources_list_content' style={foundationalStyle}>
+          <div className='parent_resources_list_content' style={foundationalStyle}>
+            <div className="resources-list-container">
+              {filteredData.map((facultyData, index) => (
+                <div key={index} className="faculty-section" style={foundationalStyle}>
+                  <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>{facultyData.faculty}</h2>
+                  {facultyData.batches.map((batch, batchIndex) => {
+                    const isExpanded = expandedBatches[`${index}-${batchIndex}`];
+                    return (
+                      <div key={batchIndex} className="batch-section" style={{ ...foundationalStyle, marginLeft: '10px', marginTop: '10px' }}>
+                        <div
+                          className="batch-header"
+                          style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                          onClick={() => toggleBatch(index, batchIndex)}
+                        >
+                          <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{batch.batchYear}</h3>
+                          <span style={{ marginLeft: '10px' }}>
+                            {isExpanded ? '▼' : '▶'}
+                          </span>
                         </div>
+
+                        {isExpanded && batch.academicYears.map((yearData, yearIndex) => (
+                          <div key={yearIndex} className="year-section" style={{ ...foundationalStyle, marginLeft: '10px', marginTop: '10px' }}>
+                            <h4 style={{ fontWeight: '600' }}>{yearData.year}</h4>
+                            {yearData.semesters.map((semesterData, semIndex) => (
+                              <><div key={semIndex} className="semester-section" style={{ ...foundationalStyle, marginLeft: '10px', marginTop: '10px' }}>
+                                <div className='thread_main-parent'></div><h5 style={{ fontWeight: '500' }}>{semesterData.semester}</h5>
+                                <div className="exams-grid" style={{ display: 'flex', flexDirection: 'column', gap: '5px', marginTop: '10px' }}>
+                                  {semesterData.exams.map((exam, examIndex) => (
+                                    <div key={examIndex} className="exam-card" style={foundationalStyle}>
+                                      <h6 style={{ fontWeight: 'bold', color: 'blue' }}>{exam.type}</h6>
+                                      <ul style={{ paddingLeft: '20px', listStyleType: 'disc' }}>
+                                        {exam.items.length > 0 ? (
+                                          exam.items.map((item, itemIndex) => (
+                                            <li key={itemIndex}>{item}</li>
+                                          ))
+                                        ) : (
+                                          <li style={{ color: '#999', fontStyle: 'italic' }}>No resources</li>
+                                        )}
+                                      </ul>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                              </>
+                            ))}
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            )
-          })}
+                    )
+                  })}
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-      ))}
+      </div>
     </div>
   )
 }

@@ -79,6 +79,7 @@
   color: #4b5563;
   line-height: 1.5;
 }
+
 .exams-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -129,6 +130,7 @@
   border-left: 4px solid #2563eb;
   padding-left: 20px;
 }
+
 .header-title {
   font-size: 2.5rem;
   font-weight: 800;
@@ -137,9 +139,11 @@
   margin: 0;
   line-height: 1.1;
 }
+
 .highlight {
   color: #2563eb;
 }
+
 .header-subtitle {
   font-size: 1.125rem;
   color: #6b7280;
@@ -152,6 +156,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
 .search-wrapper {
   position: relative;
   display: flex;
@@ -162,15 +167,18 @@
   padding: 10px 16px;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
+
 .search-wrapper:focus-within {
   border-color: #2563eb;
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
   background: #ffffff;
 }
+
 .search-icon {
   color: #9ca3af;
   margin-right: 12px;
 }
+
 .search-input {
   border: none;
   background: transparent;
@@ -179,6 +187,7 @@
   color: #1f2937;
   outline: none;
 }
+
 .search-input::placeholder {
   color: #9ca3af;
 }
