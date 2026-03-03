@@ -11,6 +11,7 @@ export default function Header() {
           </div>
           <div className="navigation_header">
             <button className=" "><Link href="/">Home</Link></button>
+            <button><Link href="/campus">Explore Campus</Link></button>
             <button className=" "><Link href="/resources">Resources</Link></button>
             {/* <button className="border border-red-600 p-[3px]"><a href="#resources">Resources</a></button> */}
             <button className=" "><a href="/connection">Connections</a></button>

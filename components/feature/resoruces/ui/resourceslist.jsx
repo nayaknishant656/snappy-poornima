@@ -23,7 +23,6 @@ export default function ResourcesList() {
 
   // Foundational style object for reuse
   const foundationalStyle = {
-    border: 'solid red 1px',
     padding: '5px'
   };
 
