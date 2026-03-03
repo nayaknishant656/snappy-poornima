@@ -14,7 +14,6 @@
     font-size: 0.875rem;
     font-weight: 500;
     transition: all 0.2s ease;
-    border: 1px solid transparent;
 }
 
 .navigation_resources_parent_body a:hover {

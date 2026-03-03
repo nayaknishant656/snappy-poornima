@@ -13,7 +13,6 @@
   padding: 32px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .parentresouce.ccomponents>*+* {
@@ -30,7 +29,6 @@
 .faculty-section {
   padding: 24px;
   background: #ffffff;
-  border: 1px solid #f0f0f0;
   border-radius: 12px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -44,13 +42,11 @@
   color: #1a1a1a;
   font-size: 1.5rem;
   letter-spacing: -0.02em;
-  border-bottom: 2px solid #f0f0f0;
   padding-bottom: 12px;
   margin-bottom: 20px;
 }
 
 .batch-section {
-  border-left: 2px solid #e5e7eb;
   padding-left: 20px;
   margin-bottom: 24px;
 }
@@ -59,7 +55,6 @@
   background: #f9fafb;
   padding: 16px;
   border-radius: 8px;
-  border: 1px solid #f3f4f6;
   transition: background 0.2s ease;
 }
 
@@ -127,7 +122,6 @@
 .header-container {
   text-align: left;
   margin-bottom: 32px;
-  border-left: 4px solid #2563eb;
   padding-left: 20px;
 }
 
@@ -162,14 +156,12 @@
   display: flex;
   align-items: center;
   background: #f9f9f9;
-  border: 1px solid #e1e1e1;
   border-radius: 12px;
   padding: 10px 16px;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .search-wrapper:focus-within {
-  border-color: #2563eb;
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
   background: #ffffff;
 }

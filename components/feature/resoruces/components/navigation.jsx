@@ -7,16 +7,16 @@ export default function Navigation() {
     <div className="navigation_resources_grandparent">
       <div className="navigation_resources_parent">
         <div className="navigation_resources_parent_body">
-          <Link href="/resources?faculty=FCE">FCE</Link>
-          <Link href="/resources?faculty=FET">FET</Link>
-          <Link href="/resources?faculty=FCSE">FCSE</Link>
-          <Link href="/resources?faculty=FPA">FPA</Link>
-          <Link href="/resources?faculty=FDA">FDA</Link>
-          <Link href="/resources?faculty=FMC">FMC</Link>
-          <Link href="/resources?faculty=FSH">FSH</Link>
-          <Link href="/resources?faculty=FPH">FPH</Link>
-          <Link href="/resources?faculty=PIHM">PIHM</Link>
-          <Link href="/resources?faculty=ASRC">ASRC</Link>
+          <Link href="/resources?faculty=Faculty of Computer Science %26 Engineering">Faculty of Computer Science & Engineering</Link>
+          <Link href="/resources?faculty=Faculty of Engineering %26 Technology">Faculty of Engineering & Technology</Link>
+          <Link href="/resources?faculty=Faculty of Computer Science and Engineering">Faculty of Computer Science and Engineering</Link>
+          <Link href="/resources?faculty=Faculty of Planning %26 Architecture">Faculty of Planning & Architecture</Link>
+          <Link href="/resources?faculty=Faculty of Design %26 Arts">Faculty of Design & Arts</Link>
+          <Link href="/resources?faculty=Faculty of Management %26 Commerce">Faculty of Management & Commerce</Link>
+          <Link href="/resources?faculty=Faculty of Science %26 Humanities">Faculty of Science & Humanities</Link>
+          <Link href="/resources?faculty=Faculty of Public Health">Faculty of Public Health</Link>
+          <Link href="/resources?faculty=Poornima Institute of Hotel Management">Poornima Institute of Hotel Management</Link>
+          <Link href="/resources?faculty=Advanced Studies %26 Research Centre">Advanced Studies & Research Centre</Link>
         </div>
       </div>
     </div>

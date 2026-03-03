@@ -1,6 +1,6 @@
 [
     {
-        "faculty": "FCE",
+        "faculty": "Faculty of Computer Science & Engineering",
         "batches": [
             {
                 "batchYear": "2021",
@@ -305,7 +305,7 @@
         ]
     },
     {
-        "faculty": "FET",
+        "faculty": "Faculty of Engineering & Technology",
         "batches": [
             {
                 "batchYear": "2021",
@@ -610,7 +610,7 @@
         ]
     },
     {
-        "faculty": "FCSE",
+        "faculty": "Faculty of Computer Science and Engineering",
         "batches": [
             {
                 "batchYear": "2021",
@@ -915,7 +915,7 @@
         ]
     },
     {
-        "faculty": "FPA",
+        "faculty": "Faculty of Planning & Architecture",
         "batches": [
             {
                 "batchYear": "2021",
@@ -1220,7 +1220,7 @@
         ]
     },
     {
-        "faculty": "FDA",
+        "faculty": "Faculty of Design & Arts",
         "batches": [
             {
                 "batchYear": "2021",
@@ -1525,7 +1525,7 @@
         ]
     },
     {
-        "faculty": "FMC",
+        "faculty": "Faculty of Management & Commerce",
         "batches": [
             {
                 "batchYear": "2021",
@@ -1830,7 +1830,7 @@
         ]
     },
     {
-        "faculty": "FSH",
+        "faculty": "Faculty of Science & Humanities",
         "batches": [
             {
                 "batchYear": "2021",
@@ -2135,7 +2135,7 @@
         ]
     },
     {
-        "faculty": "FPH",
+        "faculty": "Faculty of Public Health",
         "batches": [
             {
                 "batchYear": "2021",
@@ -2440,7 +2440,7 @@
         ]
     },
     {
-        "faculty": "PIHM",
+        "faculty": "Poornima Institute of Hotel Management",
         "batches": [
             {
                 "batchYear": "2021",
@@ -2745,7 +2745,7 @@
         ]
     },
     {
-        "faculty": "ASRC",
+        "faculty": "Advanced Studies & Research Centre",
         "batches": [
             {
                 "batchYear": "2021",
