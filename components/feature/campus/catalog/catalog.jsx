@@ -17,7 +17,7 @@ export default function Catalog() {
             title: "Resources",
             icon: <BookOpen className="w-5 h-5" />,
             color: "blue",
-            link: "/resources"
+            link: "/resources/resourcespage/poornima"
         },
         {
             id: 'connection',

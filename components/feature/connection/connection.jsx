@@ -1,17 +1,19 @@
 import React from 'react'
 import "./connection.css"
 import Link from 'next/link'
-export default function connection() {
+export default function connection({ user }) {
     return (
         <div className='grandparent_connection'>
             <div className='parent_connection'>
                 <div className='grandpparent_connection_content'>
                     <div className='parent_connection_content'>
-                        <div className='connection_header'> <h1>Connect with Your Own People to Build for Global</h1></div>
+                        <div className='connection_header'>
+                            <h1>Connect with <span className="highlight">{user || "Your Own People"}</span> to Build for Global</h1>
+                        </div>
                         <div className='connection_card_parent'>
                             {[
                                 {
-                                    slug: 'tech-innovators',
+                                    slug: 'Poornima_University_Dhurandhar',
                                     title: 'Tech Innovators',
                                     img: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop',
                                     desc: 'Collaborate with top full-stack engineers and architecture experts.'
