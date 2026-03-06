@@ -1,36 +1,126 @@
 .grandparent_colx {
-    border: solid red 1px;
-    padding: 5px;
+    padding: 20px;
     padding-top: 80px;
+    min-height: 100vh;
 }
 
 .parent_colx {
-    border: solid red 1px;
-    padding: 5px;
-}
-
-.grandpparent_colx_content {
-    border: solid red 1px;
-    padding: 5px;
-}
-
-.parent_colx_content {
-    border: solid red 1px;
-    padding: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .colx_header {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    border: solid red 1px;
-    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.colx_content_parent {
-    border: solid red 1px;
+.colx_header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.colx_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.colx_item_card {
+    border: 2px solid #000;
+    background: #fff;
+    box-shadow: 6px 6px 0px 0px #000;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+}
+
+.colx_item_card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.colx_item_image {
+    width: 100%;
+    height: 240px;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+
+.colx_item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.colx_item_card:hover .colx_item_image img {
+    transform: scale(1.05);
+}
+
+.colx_item_info {
     padding: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.colx_seller_tag {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #f1f5f9;
+    padding: 4px 10px;
+    border: 1px solid #000;
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+.colx_item_info h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.colx_item_info p {
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.colx_item_footer {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    border-top: 2px solid #000;
+    padding-top: 20px;
+}
+
+.colx_item_price {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.colx_buy_btn {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.colx_buy_btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .colx_header h1 {
+        font-size: 2rem;
+    }
 }

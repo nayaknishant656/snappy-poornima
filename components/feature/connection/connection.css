@@ -1,58 +1,83 @@
 .grandparent_connection {
-    border: solid red 1px;
     padding: 5px;
     padding-top: 80px;
 }
 
 .parent_connection {
-    border: solid red 1px;
     padding: 5px;
 }
 
 .grandpparent_connection_content {
-    border: solid red 1px;
     padding: 5px;
 }
 
 .parent_connection_content {
-    border: solid red 1px;
     padding: 5px;
 }
 
 .connection_card_parent {
-    border: solid red 1px;
     padding: 5px;
     display: flex;
 }
 
 .card_connection {
-    border: 1px solid red;
+    border: 1px solid #000000;
     width: 300px;
     height: 400px;
+    margin: 0 10px;
     padding: 5px;
-    box-shadow: 3px 4px 0px 4px black;
-    margin: 0px 10px;
+    box-shadow: 2px 2px 2px 1px #000;
 }
 
 .card_image {
-    border: solid red 1px;
     padding: 5px;
     height: 210px;
 }
 
 .card_description {
-    border: solid red 1px;
     padding: 15px;
 }
 
 .card_connection_buttons {
-    border: solid red 1px;
+    border: 1px solid #000000;
     padding: 5px;
-    box-shadow: 2px 3px 0px 1px black;
+    box-shadow: 2px 3px 0 1px #000;
 }
 
 .connection_header {
     display: flex;
     justify-content: center;
     font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.connection_filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.filter_btn {
+    padding: 8px 20px;
+    background: #fff;
+    border: 1px solid #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #000;
+    transition: all 0.2s ease;
+}
+
+.filter_btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0px 0px #000;
+    background: #f0f0f0;
+}
+
+.filter_btn.active {
+    background: #000;
+    color: #fff;
 }
