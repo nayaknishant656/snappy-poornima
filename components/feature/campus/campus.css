@@ -20,6 +20,87 @@
     font-weight: 800;
     text-transform: uppercase;
     color: #000;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 600;
+    border: 3px solid #000;
+    background: #fff;
+    outline: none;
+    box-shadow: 6px 6px 0px 0px #000;
+    transition: all 0.2s ease;
+}
+
+.search-box input:focus {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.search-box input::placeholder {
+    color: #888;
+    text-transform: uppercase;
+}
+
+.quick-cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.city-btn {
+    width: 80px;
+    padding: 6px 0;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px #000;
+    transition: all 0.1s ease;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+.city-btn:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px 0px #000;
+}
+
+.reset-btn {
+    width: 60px;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    border: 2px dashed #000;
+    background: #fdf3e7;
+}
+
+.no-results p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
 }
 
 .campus-grid {
@@ -46,12 +127,28 @@
     width: 100%;
     height: 220px;
     border-bottom: 2px solid #000;
+    position: relative;
 }
 
 .college-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.city-tag {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    box-shadow: 4px 4px 0px 0px #000;
+    z-index: 10;
 }
 
 .college-info {

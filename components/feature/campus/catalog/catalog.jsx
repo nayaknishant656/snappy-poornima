@@ -45,6 +45,26 @@ export default function Catalog() {
     return (
         <div className="catalog-container module-view">
             <header className="catalog-university-header">
+                <div className="hub-navigation-label">
+                    <h2>Campus Hub Navigation</h2>
+                    <div className="label-line"></div>
+                </div>
+
+                <nav className="catalog-tabs">
+                    {catalogItems.map((item) => (
+                        <Link
+                            key={item.id}
+                            href={item.link}
+                            className="nav-tab"
+                        >
+                            <div className={`tab-icon bg-${item.color}`}>
+                                {item.icon}
+                            </div>
+                            <span className="tab-title">{item.title}</span>
+                        </Link>
+                    ))}
+                </nav>
+
                 <div className="university-info">
                     <div className="header-badge">
                         <GraduationCap className="w-4 h-4 mr-2" />
@@ -91,26 +111,6 @@ export default function Catalog() {
                     </div>
                 </div>
             </header>
-
-            <div className="hub-navigation-label">
-                <h2>Campus Hub Navigation</h2>
-                <div className="label-line"></div>
-            </div>
-
-            <nav className="catalog-tabs">
-                {catalogItems.map((item) => (
-                    <Link
-                        key={item.id}
-                        href={item.link}
-                        className="nav-tab"
-                    >
-                        <div className={`tab-icon bg-${item.color}`}>
-                            {item.icon}
-                        </div>
-                        <span className="tab-title">{item.title}</span>
-                    </Link>
-                ))}
-            </nav>
 
             <footer className="catalog-bottom">
                 <p>Unified Campus Experience • Poornima University Central Catalog</p>
