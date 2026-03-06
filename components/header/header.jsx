@@ -15,6 +15,7 @@ export default function Header() {
             <button className=""><Link href="/projects">Projects</Link></button>
             <button className=""><Link href="/events">Events</Link></button>
             <button className=''><Link href="">Tect-Fest</Link></button>
+            <button className=''><Link href="">Rank Predictor</Link></button>
           </div>
         </div>
       </div>
