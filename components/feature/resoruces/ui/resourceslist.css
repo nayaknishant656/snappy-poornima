@@ -1,7 +1,7 @@
 .resources-faculty-explorer {
-    display: flex;
-    flex-direction: column;
     gap: 32px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .faculty-card {
@@ -10,15 +10,16 @@
     box-shadow: 6px 6px 0px 0px #000;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
+    width: 418px;
 }
 
 .faculty-card.expanded {
     transform: translateY(-4px);
     box-shadow: 10px 10px 0px 0px #000;
+
 }
 
 .faculty-card-inner {
-    display: flex;
     min-height: 200px;
 }
 
