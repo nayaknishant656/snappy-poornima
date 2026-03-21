@@ -1,38 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
 .grandparent_header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: auto;
-  z-index: 100;
-  display: blur;
+  z-index: 1000;
+  padding: 20px 0;
+  /* Creates the floating effect */
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  /* Let clicks pass through the container's empty space */
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* .parent_header {
-  width: 50%;
-  margin: auto;
-  padding: 18px 0px;
-} */
+.parent_header {
+  width: 95%;
+  max-width: 1200px;
+  pointer-events: auto;
+  /* Re-enable clicks on the actual navbar */
+}
 
 .body-parent_header {
-  border-radius: 50px;
-  justify-content: space-around;
   display: flex;
-  background-color: #ff000000;
-  /* height: 46px; */
-  backdrop-filter: blur(11px);
-  background-filter: blur(2px);
-  box-shadow: 6px 6px 7px 5px #dbc7a1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  border-radius: 100px;
+
+  /* Enhanced Premium Glassmorphism */
+  background: rgba(255, 255, 255, 0.4);
+  /* Reduced opacity for a clearer glass effect */
+  backdrop-filter: blur(25px) saturate(180%);
+  /* Increased blur and saturation for that premium glassy feel */
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  /* Multiple shadows for depth: Outer shadow + Soft inner glow */
+  box-shadow:
+    0 8px 32px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.3),
+    inset 0 10px 20px -10px rgba(255, 255, 255, 0.5);
+
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.body-parent_header:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
 .logo_header {
-  /* border: 1px solid; */
-  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  /* Premium vibrant gradient for the logo */
+  background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  transition: opacity 0.3s ease;
+}
+
+.logo_header h1:hover {
+  opacity: 0.8;
 }
 
 .navigation_header {
-  /* border: 1px solid; */
-  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.navigation_header>button {
-  margin: 0px 19px;
+.navigation_header button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.navigation_header button a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4b5563;
+  /* Sleek cool gray */
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Modern Pill Hover Effect */
+.navigation_header button a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 50px;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: -1;
+}
+
+.navigation_header button:hover a::after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.navigation_header button:hover a {
+  color: #111827;
+  /* Darker text on hover */
+}
+
+.navigation_header button:active a {
+  transform: scale(0.95);
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .body-parent_header {
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 24px;
+    gap: 16px;
+  }
+
+  .navigation_header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
 }
