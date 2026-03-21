@@ -1,0 +1,352 @@
+.searchbot-main-container {
+    z-index: 1000;
+}
+
+.searchbot-wrapper {
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    background: #ffffff0d;
+    border: 1px solid #ffffff1a;
+    border-radius: 50px;
+    align-items: center;
+    width: 300px;
+    z-index: 1000;
+    bottom: 25px;
+    /* Positioned 25px from bottom as requested */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    transition: all .4s cubic-bezier(.175, .885, .32, 1.275);
+    display: flex;
+    position: fixed;
+    box-shadow: 0 8px 32px #1f268712;
+}
+
+.searchbot-main-container.expanded .searchbot-wrapper {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(100, 100, 255, 0.3);
+    box-shadow: 0 10px 40px rgba(100, 100, 255, 0.2);
+    transform: translateX(-50%) scale(1.02);
+}
+
+@media (prefers-color-scheme: dark) {
+    .searchbot-main-container.expanded .searchbot-wrapper {
+        background: rgba(30, 30, 40, 0.8);
+        border-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.searchbot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6a6a6a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 12px;
+}
+
+.searchbot-main-container.expanded .searchbot-icon {
+    color: #4f46e5;
+    transform: rotate(90deg) scale(1.1);
+}
+
+.searchbot-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    padding: 8px 0;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    .searchbot-input {
+        color: #fff;
+    }
+
+    .searchbot-input::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.searchbot-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease;
+}
+
+.searchbot-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: popIn 0.3s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.searchbot-submit:hover {
+    background: #4338ca;
+    transform: scale(1.1) rotate(-10deg);
+}
+
+@keyframes popIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Optional: AI glowing particles effect on expand */
+.searchbot-main-container.expanded .searchbot-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff, #ff00cc);
+    z-index: -1;
+    border-radius: 52px;
+    background-size: 400%;
+    animation: glowing 20s linear infinite;
+    opacity: 0.15;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* Full Interface Overlay */
+.searchbot-full-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.full-overlay-background {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.full-interface-content {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    animation: slideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .full-interface-content {
+        background: rgba(20, 20, 30, 0.8);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+}
+
+.close-full-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: inherit;
+}
+
+.close-full-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(90deg);
+}
+
+.interface-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    background: linear-gradient(90deg, #4f46e5, #9333ea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.interface-header p {
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.search-bar-large input {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid transparent;
+    border-radius: 16px;
+    padding: 16px 20px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    .search-bar-large input {
+        background: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.search-bar-large input:focus {
+    border-color: #4f46e5;
+    background: transparent;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
+
+.suggestions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.suggestion-pill {
+    padding: 8px 16px;
+    background: rgba(79, 70, 229, 0.08);
+    border: 1px solid rgba(79, 70, 229, 0.15);
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #4f46e5;
+}
+
+@media (prefers-color-scheme: dark) {
+    .suggestion-pill {
+        color: #a5b4fc;
+        background: rgba(165, 180, 252, 0.05);
+        border-color: rgba(165, 180, 252, 0.1);
+    }
+}
+
+.suggestion-pill:hover {
+    background: #4f46e5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.search-results-area {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .search-results-area {
+        border-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.ai-orb {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #4f46e5, #9333ea);
+    border-radius: 50%;
+    filter: blur(20px);
+    animation: orbPulse 3s infinite alternate;
+    margin-bottom: 16px;
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.4;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes orbPulse {
+    from {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+}
+
+.full-view-active .searchbot-wrapper {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(50px);
+}
