@@ -111,7 +111,7 @@ export default function resourcemain({ user }) {
             </nav>
           </div>
         </div>
-        {/* <Resourceslist /> */}
+        <Resourceslist />
       </div>
     </div>
   )
