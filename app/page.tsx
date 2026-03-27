@@ -8,15 +8,13 @@ import './page.css'
 
 export default function Home() {
   return (
-    <div className="grand-parent-container-main">
-      <div className="parent-container-main">
-        <Hero />
-        <Partner />
-        <Gallery />
-        <Services />
-        <Testimonials />
-        <Footer />
-      </div>
-    </div>
+    <>
+      <Hero />
+      <Partner />
+      <Gallery />
+      <Services />
+      <Testimonials />
+      <Footer />
+    </>
   );
 }
