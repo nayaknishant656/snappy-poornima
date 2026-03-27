@@ -1,6 +1,6 @@
 .grandparent_services {
     width: 100%;
-    padding: 80px 20px;
+    padding: 40px 10px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@
 } */
 
 .services_card_content {
-    padding: 32px;
+    padding: 16px;
 }
 
 .services_card_icon_group {
