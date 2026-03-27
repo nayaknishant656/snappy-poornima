@@ -94,14 +94,10 @@ export default function Catalog() {
                         </div>
                     ))}
                 </nav>
-
-
-
             </header>
 
             <div className="university-info">
                 {renderSelectedComponent()}
-
             </div>
             <footer className="catalog-bottom">
                 <p>Unified Campus Experience • Poornima University Central Catalog</p>
