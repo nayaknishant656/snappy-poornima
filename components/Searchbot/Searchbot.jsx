@@ -48,7 +48,7 @@ export default function Searchbot() {
             <input
               type="text"
               className="searchbot-input"
-              placeholder="Ask Snappybot, find projects..."
+              placeholder="Ask AI, find projects..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onFocus={() => setIsExpanded(true)}
@@ -82,7 +82,7 @@ export default function Searchbot() {
             </button>
 
             <div className="interface-header">
-              <h2>SnappyBot AI</h2>
+              <h2>Campus AI</h2>
               <p>Search campus everything, anytime.</p>
             </div>
 
@@ -90,7 +90,7 @@ export default function Searchbot() {
               <input
                 autoFocus
                 type="text"
-                placeholder="Ask me anything about Snappy-Poornima..."
+                placeholder="Ask me anything about the campus..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
               />

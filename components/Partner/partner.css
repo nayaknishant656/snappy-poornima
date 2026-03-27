@@ -1,6 +1,6 @@
 .grandparent_partner {
     width: 100%;
-    min-height: 100px;
+    min-height: 60px;
     background-color: #f0ebff;
     display: flex;
     flex-direction: column;
