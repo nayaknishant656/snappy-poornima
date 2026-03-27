@@ -13,7 +13,7 @@ export default function Campus() {
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1986&auto=format&fit=crop",
             description: "A leading private university in Jaipur offering diverse academic programs and vibrant campus life.",
-            link: "/campus/catalog"
+            link: "Poornima_University"
         },
         {
             name: "Poornima Institute of Engineering and Technology",
@@ -133,7 +133,7 @@ export default function Campus() {
                                     <div className="college-info">
                                         <h2>{college.name}</h2>
                                         <p>{college.description}</p>
-                                        <Link href={college.link} className="explore-btn">Explore Campus</Link>
+                                        <Link href={`/campus/catalog/${college.link}`} className="explore-btn">Explore Campus</Link>
                                     </div>
                                 </div>
                             ))
