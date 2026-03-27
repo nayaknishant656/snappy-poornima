@@ -6,9 +6,7 @@ export default function Header() {
     <div className="grandparent_header">
       <div className="parent_header">
         <div className="body-parent_header">
-          <div className="logo_header ">
-            <h1>Snappy</h1>
-          </div>
+
           <div className="navigation_header">
             <button className=" "><Link href="/">Home</Link></button>
             <button><Link href="/campus">Explore Campus</Link></button>

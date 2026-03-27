@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 0;
   /* Creates the floating effect */
   display: flex;
   justify-content: center;
@@ -26,8 +26,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 24px;
-  border-radius: 100px;
+  padding: 4px 20px;
+  border-radius: 0 0 20px 20px;
 
   /* Enhanced Premium Glassmorphism */
   background: rgba(255, 255, 255, 0.4);
@@ -51,28 +51,7 @@
   box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-.logo_header {
-  display: flex;
-  align-items: center;
-}
 
-.logo_header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  font-weight: 700;
-  /* Premium vibrant gradient for the logo */
-  background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  cursor: pointer;
-  letter-spacing: -0.5px;
-  transition: opacity 0.3s ease;
-}
-
-.logo_header h1:hover {
-  opacity: 0.8;
-}
 
 .navigation_header {
   display: flex;
@@ -95,7 +74,7 @@
   /* Sleek cool gray */
   font-size: 0.95rem;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 6px 15px;
   border-radius: 50px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
@@ -136,9 +115,9 @@
 @media (max-width: 992px) {
   .body-parent_header {
     flex-direction: column;
-    padding: 16px;
-    border-radius: 24px;
-    gap: 16px;
+    padding: 10px;
+    border-radius: 0 0 16px 16px;
+    gap: 10px;
   }
 
   .navigation_header {
