@@ -6,7 +6,13 @@ import {
     Users,
     Trophy,
     Layers,
-    GraduationCap
+    GraduationCap,
+    Briefcase,
+    Calendar,
+    Zap,
+    Target,
+    Ticket,
+    MessageSquare
 } from 'lucide-react';
 
 import '@/components/feature/campus/catalog/catalog.css';
@@ -29,7 +35,13 @@ const ICON_MAP = {
     Users,
     Trophy,
     Layers,
-    GraduationCap
+    GraduationCap,
+    Briefcase,
+    Calendar,
+    Zap,
+    Target,
+    Ticket,
+    MessageSquare
 };
 
 const COMPONENT_MAP = {

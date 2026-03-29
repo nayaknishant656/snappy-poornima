@@ -20,56 +20,56 @@ export default function Campus() {
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1541339907198-e08759dfc3ef?q=80&w=2070&auto=format&fit=crop",
             description: "A premier institute focused on research and technical excellence in engineering.",
-            link: "#"
+            link: "Poornima_Institute_of_Engineering_and_Technology"
         },
         {
             name: "Poornima College of Engineering",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop",
             description: "Providing high-quality engineering education and fostering a spirit of innovation.",
-            link: "#"
+            link: "Poornima_College_of_Engineering"
         },
         {
             name: "JECRC, Jaipur",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1574092146914-9e9d6d39644b?q=80&w=1974&auto=format&fit=crop",
             description: "Known for its academic rigor and strong record in professional placements.",
-            link: "#"
+            link: "JECRC_Jaipur"
         },
         {
             name: "SKIT, Jaipur",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1498243639311-f31558140f07?q=80&w=2070&auto=format&fit=crop",
             description: "Dedicated to excellence in technical education and research with modern facilities.",
-            link: "#"
+            link: "SKIT_Jaipur"
         },
         {
             name: "VGU, Jaipur",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1592280771190-3e2e4d2d910d?q=80&w=1974&auto=format&fit=crop",
             description: "Global university focused on innovation, research, and holistic development.",
-            link: "#"
+            link: "VGU_Jaipur"
         },
         {
             name: "Jaipur National University",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1565034946487-077786996e27?q=80&w=2070&auto=format&fit=crop",
             description: "A multidisciplinary university offering quality education and professional growth.",
-            link: "#"
+            link: "Jaipur_National_University"
         },
         {
             name: "Manipal University Jaipur",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1527891751199-7225231a68dd?q=80&w=2070&auto=format&fit=crop",
             description: "Excellence in education with a focus on holistic student development and global exposure.",
-            link: "#"
+            link: "Manipal_University_Jaipur"
         },
         {
             name: "Amity University Jaipur",
             city: "Jaipur",
             image: "https://images.unsplash.com/photo-1607237138185-efd9571f9f90?q=80&w=2070&auto=format&fit=crop",
             description: "Modern campus with state-of-the-art infrastructure and diverse research opportunities.",
-            link: "#"
+            link: "Amity_University_Jaipur"
         }
     ];
 
