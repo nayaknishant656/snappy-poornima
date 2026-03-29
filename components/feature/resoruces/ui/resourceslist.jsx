@@ -2,10 +2,12 @@
 
 import React, { useState } from 'react'
 import resourcesData from '../data/resourcesData.json'
+import { useSearchParams } from 'next/navigation'
 import { ChevronDown, ChevronRight, BookOpen } from 'lucide-react'
 import './resourceslist.css'
-
 export default function ResourcesList() {
+  const searchParams = useSearchParams();
+  const filter = searchParams.get('filter');
   const [expandedFaculties, setExpandedFaculties] = useState({})
   const [expandedBatches, setExpandedBatches] = useState({})
 
@@ -40,9 +42,58 @@ export default function ResourcesList() {
     }))
   }
 
+  // Helper to match faculty from ID
+  const getFilteredData = () => {
+    if (!filter) return resourcesData;
+
+    // Simple mapping of navigation IDs to faculty names in JSON
+    const filterMap = {
+      'computer-science': ["Faculty of Computer Science & Engineering", "Faculty of Computer Science and Engineering"],
+      'electrical-engineering': ["Faculty of Engineering and Technology", "Faculty of Engineering & Technology"],
+      'civil-engineering': ["Faculty of Civil Engineering"], // Assuming based on pattern
+      'mba': ["Faculty of Management Studies", "MBA"],
+      'bba': ["Faculty of Business Administration", "BBA"],
+      'bca': ["Faculty of Computer Applications", "BCA"],
+      'mca': ["Faculty of Computer Applications", "MCA"],
+      'mtech': ["Faculty of Engineering and Technology", "MTECH"],
+      'phd': ["PHD"]
+    };
+
+    const targetFaculties = filterMap[filter] || [filter];
+
+    return resourcesData.filter(item =>
+      targetFaculties.some(target =>
+        item.faculty.toLowerCase().includes(target.toLowerCase()) ||
+        target.toLowerCase().includes(item.faculty.toLowerCase())
+      )
+    );
+  };
+
+  const filteredData = getFilteredData();
+
+  if (!filter) {
+    return (
+      <div className="resources-placeholder text-center py-20 px-4">
+        <div className="max-w-md mx-auto">
+          <BookOpen className="w-16 h-16 mx-auto mb-4 text-gray-400 opacity-20" />
+          <h3 className="text-xl font-medium text-gray-300 mb-2">Select a Department</h3>
+          <p className="text-gray-500">Please choose a department from the navigation menu to view available academic resources.</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (filteredData.length === 0) {
+    return (
+      <div className="resources-placeholder text-center py-20">
+        <p className="text-gray-500">No resources found for the selected department.</p>
+      </div>
+    );
+  }
+
   return (
     <div className='resources-faculty-explorer'>
-      {resourcesData.map((facultyData, index) => {
+      {filteredData.map((facultyData, index) => {
         const info = facultyInfo[facultyData.faculty] || {
           image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2073&auto=format&fit=crop",
           desc: "Quality academic resources and verified study materials for this faculty branch."
@@ -52,9 +103,9 @@ export default function ResourcesList() {
         return (
           <div key={index} className={`faculty-card ${isFacultyExpanded ? 'expanded' : ''}`}>
             <div className="faculty-card-inner">
-              <div className="faculty-image">
+              {/* <div className="faculty-image">
                 <img src={info.image} alt={facultyData.faculty} />
-              </div>
+              </div> */}
               <div className="faculty-main-content">
                 <h2>{facultyData.faculty}</h2>
                 <p>{info.desc}</p>
