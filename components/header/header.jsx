@@ -10,12 +10,6 @@ export default function Header() {
           <div className="navigation_header">
             <button className=" "><Link href="/">Home</Link></button>
             <button><Link href="/campus">Explore Campus</Link></button>
-            <button className=""><Link href="/projects">Projects</Link></button>
-            <button className=""><Link href="/events">Events</Link></button>
-            <button className=''><Link href="">Tect-Fest</Link></button>
-            <button className=''><Link href="">Rank Predictor</Link></button>
-            <button className=''><Link href="/Auditorium">A-Booking</Link></button>
-            <button className=''><Link href="/confession">Confession</Link></button>
           </div>
         </div>
       </div>
