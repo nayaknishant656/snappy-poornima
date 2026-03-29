@@ -1,15 +1,43 @@
 'use client'
 import React from 'react';
 import './catalog.css';
+import {
+    BookOpen,
+    Users,
+    Trophy,
+    Layers,
+    GraduationCap,
+    Briefcase,
+    Calendar,
+    Zap,
+    Target,
+    Ticket,
+    MessageSquare
+} from 'lucide-react';
+
+const ICON_MAP = {
+    BookOpen,
+    Users,
+    Trophy,
+    Layers,
+    GraduationCap,
+    Briefcase,
+    Calendar,
+    Zap,
+    Target,
+    Ticket,
+    MessageSquare
+};
 
 export default function ResourcecomponentView({ selectedItem }) {
     if (!selectedItem) return null;
+    const IconComponent = ICON_MAP[selectedItem.iconName];
 
     return (
         <div className="resource-component-panel">
             <div className="resource-component-header">
                 <div className={`resource-icon bg-${selectedItem.color}`}>
-                    {selectedItem.icon}
+                    {IconComponent && <IconComponent className="w-8 h-8" />}
                 </div>
                 <h2>{selectedItem.title}</h2>
             </div>
