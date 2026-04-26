@@ -1,12 +1,5 @@
 'use client'
 import React, { useState } from 'react';
-import {
-    BookOpen,
-    Users,
-    Trophy,
-    Layers,
-    GraduationCap
-} from 'lucide-react';
 import Link from 'next/link';
 import './catalog.css';
 import ResourcecomponentView from './Resourcecomponent';
@@ -21,35 +14,30 @@ export default function Catalog() {
         {
             id: 'resources',
             title: "Resources",
-            icon: <BookOpen className="w-5 h-5" />,
             color: "blue",
             component: <Resourcemain user="Poornima" />
         },
         {
             id: 'connection',
             title: "Connections",
-            icon: <Users className="w-5 h-5" />,
             color: "indigo",
             component: <Connection user="Poornima" />
         },
         {
             id: 'leaderboard',
             title: "Leaderboard",
-            icon: <Trophy className="w-5 h-5" />,
             color: "amber",
             component: <Leaderboard />
         },
         {
             id: 'colx',
             title: "ColX",
-            icon: <Layers className="w-5 h-5" />,
             color: "rose",
             component: <Colx />
         },
         {
             id: "semester-overview",
             title: "Semester Overview",
-            icon: <Layers className="w-5 h-5" />,
             color: "rose",
             component: null
         }
@@ -71,7 +59,6 @@ export default function Catalog() {
                     <div className="label-line"></div>
                 </div>
                 <div className="header-badge">
-                    <GraduationCap className="w-4 h-4 mr-2" />
                     <span>Poornima University Campus</span>
                 </div>
                 <h1>Poornima University</h1>
@@ -87,9 +74,6 @@ export default function Catalog() {
                             className={`nav-tab ${selectedResource?.id === item.id ? 'active-tab' : ''}`}
                             style={{ cursor: 'pointer' }}
                         >
-                            <div className={`tab-icon bg-${item.color}`}>
-                                {item.icon}
-                            </div>
                             <span className="tab-title">{item.title}</span>
                         </div>
                     ))}
