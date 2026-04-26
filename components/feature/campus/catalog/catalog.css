@@ -289,12 +289,9 @@
 
 
 .navigation_hub_catalog_grandparent {
-    border: solid 1px black;
-    padding: 3px;
 }
 
 .navigation_hub_catalog_grandparent>.navigation_hub_catalog_parent>nav>ul {
-    border: solid 1px black;
     display: flex;
     justify-content: space-around;
     overflow: scroll;

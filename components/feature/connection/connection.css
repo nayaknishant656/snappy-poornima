@@ -1,22 +1,16 @@
 .grandparent_connection {
-    padding: 5px;
-    padding-top: 80px;
 }
 
 .parent_connection {
-    padding: 5px;
 }
 
 .grandpparent_connection_content {
-    padding: 5px;
 }
 
 .parent_connection_content {
-    padding: 5px;
 }
 
 .connection_card_parent {
-    padding: 5px;
     display: flex;
 }
 
@@ -25,12 +19,10 @@
     width: 300px;
     height: 400px;
     margin: 0 10px;
-    padding: 5px;
     box-shadow: 2px 2px 2px 1px #000;
 }
 
 .card_image {
-    padding: 5px;
     height: 210px;
 }
 
@@ -40,7 +32,6 @@
 
 .card_connection_buttons {
     border: 1px solid #000000;
-    padding: 5px;
     box-shadow: 2px 3px 0 1px #000;
 }
 
