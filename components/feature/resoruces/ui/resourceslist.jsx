@@ -145,7 +145,7 @@ export default function ResourcesList() {
                               <div className="semesters-grid">
                                 {yearData.semesters.map((sem, sIndex) => (
                                   <div key={sIndex} className="semester-card">
-                                    <h5>{sem.semester}</h5>
+                                    <div className='thread'></div> <h5>{sem.semester}</h5>
                                     <div className="exams-list">
                                       {sem.exams.map((exam, eIndex) => (
                                         <div key={eIndex} className="exam-entry">
