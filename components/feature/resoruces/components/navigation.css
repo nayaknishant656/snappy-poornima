@@ -27,3 +27,7 @@
     color: #ffffff;
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
+
+.navigation_resources_grandparent {
+    border: solid 1px #0000002b;
+}
