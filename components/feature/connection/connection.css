@@ -1,25 +1,32 @@
 .grandparent_connection {
+    display: flex;
+    justify-content: center;
 }
 
-.parent_connection {
-}
+
 
 .grandpparent_connection_content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .parent_connection_content {
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .connection_card_parent {
     display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
 .card_connection {
-    border: 1px solid #000000;
+    border: 1px solid #0000002e;
     width: 300px;
     height: 400px;
-    margin: 0 10px;
-    box-shadow: 2px 2px 2px 1px #000;
 }
 
 .card_image {
@@ -31,8 +38,7 @@
 }
 
 .card_connection_buttons {
-    border: 1px solid #000000;
-    box-shadow: 2px 3px 0 1px #000;
+    border: 1px solid #0000002b;
 }
 
 .connection_header {
