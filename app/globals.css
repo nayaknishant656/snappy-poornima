@@ -1,9 +1,52 @@
 @import "tailwindcss";
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*,
+:after,
+:before,
+::backdrop {
   box-sizing: border-box;
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
+}
+
+:root,
+:host {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --color-gray-50: #f9fafb;
+  --color-gray-300: #d1d5dc;
+  --color-gray-400: #99a1af;
+  --color-gray-500: #6a7282;
+  --color-gray-600: #4a5565;
+  --color-gray-950: #030712;
+  --color-white: #fff;
+  --spacing: .25rem;
+  --container-md: 28rem;
+  --text-xs: .75rem;
+  --text-xs--line-height: calc(1 / .75);
+  --text-sm: .875rem;
+  --text-sm--line-height: calc(1.25 / .875);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --radius-lg: .5rem;
+  --radius-xl: .75rem;
+  --default-transition-duration: .15s;
+  --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
 }
 
 body {

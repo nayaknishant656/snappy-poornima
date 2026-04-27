@@ -150,7 +150,7 @@
     }
 
     .tab-title {
-        display: none;
+        display: block;
     }
 
     .module-header-info {
@@ -166,7 +166,6 @@
 }
 
 .navigation_hub_catalog_grandparent>.navigation_hub_catalog_parent>nav>ul {
-    flex-wrap: wrap;
     margin: 0;
     gap: 8px;
     padding: 0;
