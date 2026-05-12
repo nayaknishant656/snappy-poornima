@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Shareable Resources Platform , Or Catalog Sharing Indentity Over the College Campus , Superstar of Resources Well Organised with that SHit , you know you know 
+
 First, run the development server:
 
 ```bash
