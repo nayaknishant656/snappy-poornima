@@ -7,7 +7,7 @@ import Resourcemain from '../../resoruces/resourcemain';
 import Connection from '../../connection/connection';
 import Colx from '../../colx/colx';
 import Leaderboard from '../../leaderboard/leaderboard';
-
+import HireNews from '../../../../app/hirenews/page';
 export default function Catalog() {
     const [selectedResource, setSelectedResource] = useState(null);
     const catalogItems = [
@@ -40,6 +40,12 @@ export default function Catalog() {
             title: "Semester Overview",
             color: "rose",
             component: null
+        },
+        {
+            id: "hire-news",
+            title: "HireNews",
+            color: "rose",
+            component: <HireNews />
         }
     ];
 
