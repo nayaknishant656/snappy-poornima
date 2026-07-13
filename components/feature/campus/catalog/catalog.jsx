@@ -1,6 +1,7 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import axios from 'axios';
 import './catalog.css';
 import ResourcecomponentView from './Resourcecomponent';
 import Resourcemain from '../../resoruces/resourcemain';
@@ -8,8 +9,30 @@ import Connection from '../../connection/connection';
 import Colx from '../../colx/colx';
 import Leaderboard from '../../leaderboard/leaderboard';
 import HireNews from '../../../../app/hirenews/page';
+
 export default function Catalog() {
     const [selectedResource, setSelectedResource] = useState(null);
+    const [colleges, setColleges] = useState([]);
+    const [selectedCollegeIndex, setSelectedCollegeIndex] = useState(0);
+
+    async function fetchColleges() {
+        try {
+            const res = await axios.get("http://localhost:8000/api/ci/");
+            if (res.data && res.data.success && Array.isArray(res.data.data)) {
+                setColleges(res.data.data);
+                console.log("college", colleges);
+            } else if (Array.isArray(res.data)) {
+                setColleges(res.data);
+            }
+        } catch (error) {
+            console.error("Error fetching colleges:", error);
+        }
+    }
+
+    useEffect(() => {
+        fetchColleges();
+    }, []);
+
     const catalogItems = [
         {
             id: 'resources',
