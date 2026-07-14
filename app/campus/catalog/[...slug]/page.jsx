@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
+import axios from "axios";
 import {
     BookOpen,
     Users,
@@ -61,6 +62,27 @@ export default function DynamicCatalog() {
 
     // Fetch campus configuration based on slug[0] (campus identifier)
     const currentCampusDetails = campusData[campusName];
+    const [colleges, setColleges] = useState();
+    const [selectedCollegeIndex, setSelectedCollegeIndex] = useState(0);
+
+
+    async function fetchColleges() {
+        try {
+            const res = await axios.get("http://localhost:8000/api/ci/college-info/6a4a8deb2944d47b58be3b49");
+            if (res.data?.success) {
+                setColleges(res.data.data);
+                console.log("college", res.data.data);
+            }
+        } catch (error) {
+            console.error("Error fetching colleges:", error);
+        }
+    }
+
+    useEffect(() => {
+        fetchColleges();
+        console.log(colleges);
+        console.log("NISHANT YOULL BE BADASS ENGINEER 0.1%");
+    }, []);
 
     // Effect to set the selected component based on slug[1] (resource identifier)
     useEffect(() => {
@@ -105,7 +127,7 @@ export default function DynamicCatalog() {
     return (
         <div className="catalog-container module-view">
             <CatalogHeader
-                name={name}
+                name={"NISHANTNAYAK"}
                 badge={badge}
                 description={description}
             />

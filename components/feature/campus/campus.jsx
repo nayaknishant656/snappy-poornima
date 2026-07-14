@@ -24,7 +24,7 @@ export default function Campus() {
 
     useEffect(() => {
         fetchColleges();
-    }, [colleges]);
+    }, []);
 
     const filteredColleges = colleges.filter(college => {
         const { name = "", city = "", description = "", Description = "" } = college;

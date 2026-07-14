@@ -15,9 +15,9 @@ export default function Catalog() {
     const [colleges, setColleges] = useState([]);
     const [selectedCollegeIndex, setSelectedCollegeIndex] = useState(0);
 
-    async function fetchColleges() {
+     async function fetchColleges() {
         try {
-            const res = await axios.get("http://localhost:8000/api/ci/");
+            const res = await axios.get("http://localhost:8000/api/ci");
             if (res.data && res.data.success && Array.isArray(res.data.data)) {
                 setColleges(res.data.data);
                 console.log("college", colleges);
@@ -32,6 +32,7 @@ export default function Catalog() {
     useEffect(() => {
         fetchColleges();
     }, []);
+
 
     const catalogItems = [
         {
@@ -88,9 +89,9 @@ export default function Catalog() {
                     <div className="label-line"></div>
                 </div>
                 <div className="header-badge">
-                    <span>Poornima University Campus</span>
+                    <span>NISHANT NAYAK  Campus</span>
                 </div>
-                <h1>Poornima University</h1>
+                <h1>NISHANT NAYAK UMEDANDA</h1>
                 <p className="college-description">
                     An advanced technological and research university committed to excellence in education,
                     innovation, and empowering the next generation of industry leaders.
