@@ -62,13 +62,13 @@ export default function DynamicCatalog() {
 
     // Fetch campus configuration based on slug[0] (campus identifier)
     const currentCampusDetails = campusData[campusName];
-    const [colleges, setColleges] = useState();
+    const [colleges, setColleges] = useState([]);
     const [selectedCollegeIndex, setSelectedCollegeIndex] = useState(0);
 
 
     async function fetchColleges() {
         try {
-            const res = await axios.get("http://localhost:8000/api/ci/college-info/6a4a8deb2944d47b58be3b49");
+            const res = await axios.get("http://localhost:8000/api/ci/college-info/6a58fdd0adaad72cdc673b98");
             if (res.data?.success) {
                 setColleges(res.data.data);
                 console.log("college", res.data.data);
@@ -77,12 +77,14 @@ export default function DynamicCatalog() {
             console.error("Error fetching colleges:", error);
         }
     }
-
     useEffect(() => {
         fetchColleges();
         console.log(colleges);
+        console.log(catalogItems);
         console.log("NISHANT YOULL BE BADASS ENGINEER 0.1%");
     }, []);
+
+
 
     // Effect to set the selected component based on slug[1] (resource identifier)
     useEffect(() => {
@@ -109,7 +111,9 @@ export default function DynamicCatalog() {
         );
     }
 
-    const { name, badge, description, footerText, catalogItems } = currentCampusDetails;
+    const { name, badge, footerText, catalogItems, description } = currentCampusDetails;
+
+
 
     // Renders the specific component based on selection and COMPONENT_MAP
     const renderContent = () => {
@@ -124,12 +128,14 @@ export default function DynamicCatalog() {
         return <ResourcecomponentView selectedItem={selectedResource} />;
     };
 
+
+
     return (
         <div className="catalog-container module-view">
+
+
             <CatalogHeader
-                name={"NISHANTNAYAK"}
-                badge={badge}
-                description={description}
+                {...colleges}
             />
 
             <CatalogTabs
