@@ -111,7 +111,9 @@ export default function DynamicCatalog() {
         );
     }
 
-    const { name, badge, footerText, catalogItems, description } = currentCampusDetails;
+    const { name, badge, footerText, description } = currentCampusDetails;
+    const { catalogItems } = colleges;
+
 
 
 
@@ -130,6 +132,7 @@ export default function DynamicCatalog() {
 
 
 
+
     return (
         <div className="catalog-container module-view">
 
@@ -140,10 +143,10 @@ export default function DynamicCatalog() {
 
             <CatalogTabs
                 items={catalogItems}
-                selectedId={selectedResource?.id}
-                onSelect={setSelectedResource}
+                // selectedId={selectedResource?.id}
+                // onSelect={setSelectedResource}
                 iconMap={ICON_MAP}
-                slug={campusName}
+            // slug={campusName}
             />
 
             <div className="university-info">
